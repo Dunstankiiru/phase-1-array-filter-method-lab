@@ -36,4 +36,4 @@ const drivers = [
 console.log(findMatching(["Bobby", "Sammy", "Sally", "Annette"], "bobby")); // ["Bobby"]
 console.log(fuzzyMatch(["Bobby", "Sammy", "Sally", "Annette"], "Sa")); // ["Sammy", "Sally"]
 console.log(matchName(drivers, "Bobby"));
-// [{ name: "Bobby", hometown: "New York" }, { name: "Bobby", hometown: "Denver" }]
+
